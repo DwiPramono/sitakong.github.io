@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SITAKONG</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts      -->
+
+<header>
+
+    <a href="#" class="logo"><i class="fas fa-carrot"></i></i> SITAKONG | Sistem Informasi Penjualan Singkong</a>
+
+    <nav class="navbar">
+        <a class="active" href="#home">home</a>
+        <a href="#dishes">produk</a>
+        <a href="#about">tentang</a>
+        <a href="#menu">penjual</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+    </div>
+
+</header>
+
+<!-- header section ends-->
+
+<!-- search form  -->
+
+<form action="" id="search-form">
+    <input type="search" placeholder="search here..." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="swiper-container home-slider">
+
+        <div class="swiper-wrapper wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Singkong</span>
+                    <h3>Beragam Ukuran</h3>
+                    <p>Mulai dari kecil, sedang, hingga besar ada di SITAKONG</p>
+                    <a href="#dishes" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src="images/singkong1.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Singkong</span>
+                    <h3>Beragam Ukuran</h3>
+                    <p>Mulai dari kecil, sedang, hingga besar ada di SITAKONG</p>
+                    <a href="#dishes" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src="images/singkong2.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Singkong</span>
+                    <h3>Beragam Ukuran</h3>
+                    <p>Mulai dari kecil, sedang, hingga besar ada di SITAKONG</p>
+                    <a href="#dishes" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src="images/singkong3.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- produk section starts  -->
+
+<section class="dishes" id="dishes">
+
+    <h3 class="sub-heading"> Produk </h3>
+    <h1 class="heading"> SITAKONG </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/singkongkcl.jpg" alt="">
+            <h3>Singkong ukuran kecil</h3>
+            <span>IDR6000 / Kg</span>
+            <a href="#" class="btn">Hubungi Penjual</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/singkongsedang.jpg" alt="">
+            <h3>Singkong ukuran sedang</h3>
+            <span>IDR7000 / Kg</span>
+            <a href="#" class="btn">Hubungi Penjual</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/singkongbsr.jpg" alt="">
+            <h3>Singkong ukuran besar</h3>
+            <span>IDR8000 / Kg</span>
+            <a href="#" class="btn">Hubungi Penjual</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- produk section ends -->
+
+<!-- tentang section starts  -->
+
+<section class="about" id="about">
+
+    <h3 class="sub-heading"> tentang </h3>
+    <h1 class="heading"> SITAKONG </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/sitakong.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>Sistem Informasi Penjualan Singkong</h3>
+            <p>adalah sistem informasi berupa website yang didesain untuk penjualan singkong milik Bapak Puryani.</p>
+            <p>SITAKONG dibuat dalam rangka penerapan Iptek dari program PKM-PI Mahasiswa Universitas Merdeka Malang, Fakultas Teknologi Informasi pada masyarakat.</p>
+            
+            <a href="#menu" class="btn">Penjual</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- tentang section ends -->
+
+<!-- penjual section starts  -->
+
+<section class="menu" id="menu">
+
+    <h3 class="sub-heading"> Penjual </h3>
+    <h1 class="heading"> SITAKONG </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>locations</h3>
+            <p>Kelurahan Polehan, kecamatan Blimbing, Kota Malang.</p>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home">home</a>
+            <a href="#dishes">produk</a>
+            <a href="#about">tentang</a>
+            <a href="#menu">penjual</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#">089-541-051-1702</a>
+            <a href="#">0821-3813-2842</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- penjual section ends -->  
+
+<!-- footer section starts  -->
+
+<section class="footer">
+    <div class="credit"> copyright 2022 by <span>SITAKONG</span> </div>
+</section>
+
+<!-- footer section ends -->
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
